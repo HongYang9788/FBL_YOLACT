@@ -13,16 +13,23 @@ YOLACT: A simple, fully convolutional model for real-time instance segmentation.
 
 Some examples of fish body segmentaion using YOLACT:
 
-![Example 0](data/result.jpg)
+![Example 0](data/result.jpg){width=200}
 
-![Example 1](data/result1.jpg)
+![Example 1](data/result1.jpg){width=200}
 
-![Example 2](data/result2.jpg)
+![Example 2](data/result2.jpg){width=200}
+
+
 
 # Installation
- - Clone this repository and enter it:
+ - Run the docker image (Not Recommended):
    ```Shell
-   git clone https://github.com/dbolya/FBL_YOLACT.git
+   docker run -it hongyang9788/yolact_fish
+   ```
+ 
+ - Or clone this repository and enter it:
+   ```Shell
+   git clone https://github.com/HongYang9788/FBL_YOLACT.git
    cd FBL_YOLACT
    ```
  - Set up the environment using one of the following methods:
